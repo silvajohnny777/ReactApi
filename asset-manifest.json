@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React-ApiRest/static/css/main.46486398.chunk.css",
-    "main.js": "/React-ApiRest/static/js/main.8fb0525d.chunk.js",
-    "main.js.map": "/React-ApiRest/static/js/main.8fb0525d.chunk.js.map",
-    "runtime~main.js": "/React-ApiRest/static/js/runtime~main.49cdf47d.js",
-    "runtime~main.js.map": "/React-ApiRest/static/js/runtime~main.49cdf47d.js.map",
-    "static/js/2.3f0407f5.chunk.js": "/React-ApiRest/static/js/2.3f0407f5.chunk.js",
-    "static/js/2.3f0407f5.chunk.js.map": "/React-ApiRest/static/js/2.3f0407f5.chunk.js.map",
-    "index.html": "/React-ApiRest/index.html",
-    "precache-manifest.f9b3ef90dd2344f7837b7100e808291a.js": "/React-ApiRest/precache-manifest.f9b3ef90dd2344f7837b7100e808291a.js",
-    "service-worker.js": "/React-ApiRest/service-worker.js",
-    "static/css/main.46486398.chunk.css.map": "/React-ApiRest/static/css/main.46486398.chunk.css.map"
+    "main.css": "/ReactApi/static/css/main.46486398.chunk.css",
+    "main.js": "/ReactApi/static/js/main.8fb0525d.chunk.js",
+    "main.js.map": "/ReactApi/static/js/main.8fb0525d.chunk.js.map",
+    "runtime~main.js": "/ReactApi/static/js/runtime~main.9c6158de.js",
+    "runtime~main.js.map": "/ReactApi/static/js/runtime~main.9c6158de.js.map",
+    "static/js/2.3f0407f5.chunk.js": "/ReactApi/static/js/2.3f0407f5.chunk.js",
+    "static/js/2.3f0407f5.chunk.js.map": "/ReactApi/static/js/2.3f0407f5.chunk.js.map",
+    "index.html": "/ReactApi/index.html",
+    "precache-manifest.724c83edfc2d85d94da1130804aa8475.js": "/ReactApi/precache-manifest.724c83edfc2d85d94da1130804aa8475.js",
+    "service-worker.js": "/ReactApi/service-worker.js",
+    "static/css/main.46486398.chunk.css.map": "/ReactApi/static/css/main.46486398.chunk.css.map"
   }
 }
