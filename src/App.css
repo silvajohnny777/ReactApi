@@ -45,10 +45,10 @@
 }
 
 .countrieslist {
-  background-color: hsl(0, 0%, 98%);
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
+  width: 78%;
 }
 
 .container-col {
@@ -115,11 +115,15 @@
 }
 
 .card {
-  margin: 0.5%;
-  width: 22.4%;
+  margin: 1%;
+  width: 20.5%;
   height: 336px;
   background-color: white;
   box-shadow: 5px 5px 5px rgba(39, 44, 49, .07), 1px 6px 5px rgba(39, 44, 49, .04);
+}
+
+.bandeirasBack {
+  background-color: hsl(0, 0%, 98%);
 }
 
 .countryInfoImage {

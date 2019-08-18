@@ -52,14 +52,15 @@ class Countries extends Component {
                 </div>
                 </div> 
                 </div>
-            </div>         
-            {this.state.countries.map(countries => (
-            <NavLink style={{ textDecoration: 'none', color: 'black' }} key={countries.alpha2Code} to={{
-              pathname: "/country",
-              data: countries
-            }} >
+            </div>   
+            <div className="bandeirasBack container-fluid">    
             <div id="countrieslist" className="countrieslist container-fluid">
+            {this.state.countries.map(countries => (
               <div id="card" className="card">
+              <NavLink style={{ textDecoration: 'none', color: 'black' }} key={countries.alpha2Code} to={{
+                pathname: "/country",
+                data: countries
+              }} >
                 <div id="click" className="a" value={countries.name} onClick={this.handleClick} href="#">
                   <img className="card-img-top" src={countries.flag}lt="Card image cap" /></div>
                 <div className="card-body"><h5 id="countryName" className="card-title">{countries.name}</h5> 
@@ -70,11 +71,10 @@ class Countries extends Component {
                   </p>
                 </div>
                 </div>
-              </div>
-            </div>
             </NavLink>
+              </div>
             ))}
-            </div>
+            </div></div></div>  
         )
     }
 
@@ -84,6 +84,7 @@ class Countries extends Component {
     }
     
     searchChange = (e) => {
+      console.log('elemento> ' +e.target.value)
       this.setState(
         { apiURL: 'https://restcountries.eu/rest/v2/name/' +e.target.value 
       });
